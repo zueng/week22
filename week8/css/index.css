@@ -1,0 +1,136 @@
+@charset "UTF-8" ;
+#main_menu{
+    list-style: none;
+    padding: 0px;
+}
+
+html, body{
+    height: 100%;
+    width:  100%;
+}
+
+.bg_1{
+    background-image: url(../image/1294713.jpg);
+
+}
+
+.bg_2{
+    background-image: url(../image/1648539598_212582.jpg);
+}
+
+.bg_3{
+    background-image: url(../image/j6u5ekbEjavBLUYBPfoXZh4G4Jg.jpg);
+}
+
+.bg_4{
+    background-image: url(../image/vyBhNgipBiSCN4xLhys2ez7We6b.jpg);
+}
+
+.color_1{
+    background-color: aqua;
+}
+.color_2{
+    background-color: rgb(104, 71, 252);
+}
+.color_3{
+    background-color: rgb(149, 126, 250);
+}
+
+.color_4{
+    background-color: rgb(56, 110, 141);
+}
+
+.fixed_bg, .infos{
+    position: relative;
+    height: 100%;
+}
+
+.fixed_bg{
+    background-color: brown;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.vcenter{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    color: aliceblue;
+}
+
+
+body{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(252, 252, 252);
+    text-align: center;
+}
+
+#main_menu li {
+    display: inline-block;
+}
+
+#main_menu li a{
+    display: block;
+    padding: 15px 25px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(57, 38, 109);
+}
+#main_menu li a:hover{
+    color: rgb(167, 162, 235);
+}
+
+div{
+    height: 300px;
+}
+div.div.bgl{
+    background-image: url(../image/1294713.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #9c3f3f;   
+}
+img{
+    border-radius: 50%;
+    width: 500px;
+}
+h1{
+    border: 3px dashed #ffffff;
+    border-radius: 20px;
+    padding: 6px 0;
+    margin: 80px auto;
+    width: 300px;
+    text-align: center;
+}
+
+time{
+    background-color: rgb(46, 66, 182);
+    padding: 13px 25px 12px 20px;
+    display: inline-block;
+    border-radius: 0px 22px 22px 22px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.a_piclink{
+    display: block;
+    width: 1000px;
+    height: 500px;
+    background-image: url(../image/b8fbd5b80f1e54d5f462db35761nacb5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div.center{
+    text-align: center;
+    color: #ffffff;
+}
+.center>a{
+    margin: 0 auto;
+}
+.text{
+    color: rgb(14, 14, 26);
+    text-align: center;
+}

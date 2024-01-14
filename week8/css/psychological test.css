@@ -1,0 +1,106 @@
+@charset "UTF-8" ;
+#main_menu{
+    list-style: none;
+    padding: 0px;
+}
+
+body{
+    background-image: url(../image/pexels-johannes-plenio-1423600.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(79, 187, 106);
+    text-align: center;
+}
+
+#main_menu li {
+    display: inline-block;
+}
+
+#main_menu li a{
+    display: block;
+    padding: 15px 25px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(26, 133, 43)
+}
+#main_menu li a:hover{
+    color: rgb(255, 255, 255);
+}
+
+div{
+    width: 500px;
+    height: 300px;
+}
+div.div.bgl{
+    background-image: url(../image/1294713.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #9c3f3f;   
+}
+img{
+    border-radius: 50%;
+    width: 500px;
+}
+h1{
+    border: 3px dashed #ffffff;
+    border-radius: 20px;
+    padding: 6px 0;
+    margin: 80px auto;
+    width: 200px;
+    text-align: center;
+}
+h2{
+    color: #ffffff;
+}
+
+p{
+    color: #ffffff;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a_piclink{
+    display: block;
+    width: 500px;
+    height: 600px;
+    background-image: url(../image/w1200.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.a_piclink-1{
+    display: block;
+    width: 700px;
+    height: 500px;
+    background-image: url(../image/meta-img.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.a_piclink-2{
+    display: block;
+    width: 700px;
+    height: 450px;
+    background-image: url(../image/169831099467014_P26535228.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.a_piclink-3{
+    display: block;
+    width: 700px;
+    height: 500px;
+    background-image: url(../image/20220801-112935_U23429_M781490_7654.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+div.center{
+    margin: 0 auto;
+}
